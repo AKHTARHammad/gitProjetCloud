@@ -1,0 +1,8 @@
+version: '2'
+services:
+    mysqlhost:
+        image: hammad7akhtar/mysql-server
+    web:
+        image: hammad7akhtar/myphpapp
+        ports:
+- "8090:80"
