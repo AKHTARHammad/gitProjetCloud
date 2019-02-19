@@ -36,7 +36,7 @@ if(isset($_POST['Submit'])) {
     } else { 
         // if all the fields are filled (not empty)             
         //insert data to database
-        $result = mysqli_query($mysqli, "INSERT INTO users(name,age,email,salary) VALUES('$name','$age','$email','$salary')");
+        $result = mysqli_query($mysqli, "INSERT INTO developpeurs(name,age,email,salary) VALUES('$name','$age','$email','$salary')");
         
         //display success message
         echo "<font color='green'>Data added successfully.";
